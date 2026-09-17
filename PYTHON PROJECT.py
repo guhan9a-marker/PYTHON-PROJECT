@@ -63,7 +63,7 @@ while True:
 #IF NOT
 # TERMINATE
 
-'''import random
+import random
 
 emojis = {'r': '🪨', 's': '✂️', 'p': '📄'}
 choices = ('r', 's', 'p')
@@ -90,14 +90,7 @@ while True:
 
     should_continue = input('Continue? (y/n): ').lower()
     if should_continue == 'n':
-        break'''
-
-import torch
-
-print("CUDA available:", torch.cuda.is_available())
-
-if torch.cuda.is_available():
-    print("GPU:", torch.cuda.get_device_name(0))
+        break
 
                 
      
